@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+ 
+}
+#header{
+    width:100%;
+    background-color:rgba(234,237,255,255);
+    background-size:cover;
+    background-position:center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    margin-left: 300px;
+    display:flex;
+align-items:center;
+justify-content:space-between;
+align-content: center;
+flex-wrap:wrap;
+
+}
+nav ul li{
+    
+    display:inline-block;
+    list-style: none;
+    margin:10px 20px;
+    
+}nav ul li a{color:rgb(91, 60, 91);
+    text-decoration:none;
+    font-size:18px;
+    position:relative;
+}
+nav ul li a::after{content:'';
+    width:0;
+    height:3px;
+    background-color:#b18fe7;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+}
+nav ul li a:hover::after{
+   
+    width:100%;
+
+}
+.header-text{
+    margin-top:20%;
+    font-size:30px;
+   
+}
+.header-text h1{
+    margin-top:20px;
+    font-size:50px;
+    color: rgb(72, 72, 72);
+}
+.header-text h1 span{
+    color:#944285;
+
+}
+.container-2{
+    display: flex;
+    background-color:rgba(234,237,255,255);
+    height:90vh;
+}
+.image1{
+    margin-left: 200px;
+    width: 600px;
+    height:500px;
+
+}
+.header-text{
+    margin: 0px;
+    padding: 0px;
+   margin-top: 150px;
+   margin-left: 140px;
+}
+
+#about{
+    padding:120px 0;
+    color:black;
+}
+.container-3{
+    display:flex;
+   
+  
+}
+
+.about-col-1 img{
+    width:50%;
+    border-radius:30%;
+
+    margin-left:220px ;
+    box-shadow: 3px 2px 10px 4px rgb(224, 215, 215);
+}
+
+    .about-col-2{
+   width:60%;
+        color: #944285;
+        margin-right: 80px;  
+        margin-top: 50px;
+        margin-left: -80px;
+    }
+    .about-col-2 p{
+        color: #777676;
+        line-height: 1.5;
+        font-size: 19px;
+        padding-top: 40px;
+    }
+    .subtitle{
+        font-size:57px;
+        font-weight:600;
+        color:rgb(82, 51, 152);
+    }
+    .tab-titles{
+        display:flex;
+    margin:20px 0 40px;
+}
+    .tab-links{
+   margin-right:20px;
+   font-size:18px;
+   font-weight:500;
+   cursor:pointer;
+   position:relative;
+   
+    }
+
+.skills {
+        padding: 72px 0;
+        background-color: rgba(255,247,236,255);
+    }
+    
+    .container4 {
+        display: flex;
+
+    }
+    
+    .left {
+        margin-left: 230px;
+      width: 50%;
+    }
+    
+    .right{
+        width: 50%;
+     
+        display: flex; /* Add display: flex */
+    }
+    
+    .right img {
+        height: 400px;
+        width: 500px;
+       margin-left: -50px;
+    }
+    
+    /* Adjust the column-container styles */
+    .column-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Set width to 100% */
+    }
+    
+    .column-item {
+        border-radius:31px;
+        width: 50%;
+        /* border: 1px solid rgb(49, 46, 46); */
+        padding: 15px;
+        margin: 15px;
+        padding-left: 40px;
+        font-size: 20px;
+        font-weight: 600;
+        color:white;
+        box-shadow: 5px 5px 10px 3px rgb(215, 213, 213);
+        background-color:rgb(220, 168, 123);
+    }
+    .heading1{
+        margin-left: 30px;
+        font-size:20px;
+        font-weight:400;
+        color:rgb(168, 89, 20);
+        padding-bottom: 30px;
+        
+    }
+    .work{
+        width:300px;
+        height:200px;
+        box-shadow: 5px 5px 10px 3px rgb(215, 213, 213);
+        border-radius: 20px;
+        transition: 0.3s ease-in-out;
+        
+    }
+    .work:hover{
+ cursor:pointer;
+ width:305x;
+ height:205px;
+    }
+.flex-container{
+    display:flex;
+    gap:70px;
+    color: #777676;
+    line-height: 1.5;
+    font-size: 19px;
+    padding-top: 40px;
+    margin-left:240px;
+}
+.heading2{
+    font-size:57px;
+        font-weight:600;
+        color:rgb(10, 8, 14);
+        text-align: center;
+        margin-top: 50px;
+        
+}
+.content{
+     color: #777676;
+        line-height: 1.5;
+        font-size: 19px;
+        padding-top: 40px;
+        margin:0 150px 0 150px;
+}
+.b{
+    margin-bottom: 80px;
+}
+
